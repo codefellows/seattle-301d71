@@ -1,0 +1,30 @@
+body {
+  padding: 15px;
+}
+
+article img {
+  width: 100%;
+}
+
+@media(min-width: 500px){
+
+  body {
+    background: #301d7120;
+  }
+
+  article img {
+    width: 50%;
+    float: left;
+  }
+
+  div {
+    float: left;
+    width: 50%;
+  }
+
+  article {
+    overflow: hidden;
+  }
+
+
+} 
