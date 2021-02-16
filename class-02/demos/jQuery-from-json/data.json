@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Odie",
+    "image_url": "https://vignette.wikia.nocookie.net/garfield/images/a/ac/OdieCharacter.jpg/revision/latest?cb=20161218045212",
+    "hobbies": "Annoying Garfield"
+  },
+  {
+    "name": "Lassie",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Lassie.jpg",
+    "hobbies": "Saving Timmy when he falls into the well"
+  },
+  {
+    "name": "Clifford",
+    "image_url": "https://vignette.wikia.nocookie.net/animated-video-games-muscular/images/8/85/Clifford.jpg/revision/latest?cb=20170219230418",
+    "hobbies": "Being big and red"
+  },
+  {
+    "name": "Hobbes",
+    "image_url": "https://vignette.wikia.nocookie.net/candh/images/3/36/61D_hobbes.jpg/revision/latest?cb=20121112232636",
+    "hobbies": "Being a solid sidekick to Calvin"
+  }
+]

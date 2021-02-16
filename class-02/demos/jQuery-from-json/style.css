@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+
+ul {
+  max-width: 90%;
+  margin: auto;
+}
+
+li {
+  width: 33%;
+  float: left;
+}
+
+img {
+  width: 90%;
+  margin: auto;
+  display: block;
+}
+
+#templates {
+  display: none;
+}

@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  background-color: #301d7190;
+  border: solid red 1px;
+  float: left;
+}
+
+section {
+  width: 300px;
+  overflow: hidden;
+}
+
+.red {
+  background-color: red;
+}
