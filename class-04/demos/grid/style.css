@@ -1,0 +1,20 @@
+div {
+  border: solid red 1px;
+  background-color: #301d7199;
+}
+
+main > div:nth-child(3){
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  /* 3 column wide(even spacing) */
+  grid-template-rows: 2fr 3fr;
+  /* 2 rows tall (even spacing */
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr 600px 1fr 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 300px 100px 200px 300px;
+  width: 1080px;
+  margin: auto;
+}

@@ -1,0 +1,51 @@
+div, li, img  {
+  box-sizing: border-box;
+  border: 1px solid #ff000050;
+  background-color: #301d7150;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  height: 100vh;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 100px  1fr;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding-left: 400px;
+}
+
+ul {
+  list-style: none;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+main img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+main ul {
+  display: grid;
+  grid-template-rows: 3fr 2fr 3fr;
+}
+
+main ul li {
+  margin: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

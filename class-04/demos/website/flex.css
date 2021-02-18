@@ -1,0 +1,51 @@
+nav {
+  display: flex;
+  position: fixed;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-self: flex-end;
+  margin-left: auto;
+}
+nav li:nth-child(3){
+  z-index: 99;
+}
+nav li:nth-child(2){
+  z-index: 1;
+}
+
+nav ul li {
+  width: 100px;
+  border: solid red 1px;
+}
+
+main {
+  display: flex;
+  position: relative;
+  top: 100px;
+  z-index: 2;
+}
+main img {
+  display: block;
+  width: 40%;
+}
+main ul{
+  width: 60%
+}
+main li {
+  border: solid red 1px;
+}
+
+main li:nth-child(1), main li:nth-child(3){
+  height: 300px;
+}
+
+main li:nth-child(2){
+  height:200px;
+}
+
+footer {
+  height: 1000px;
+}
