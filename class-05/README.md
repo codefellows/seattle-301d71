@@ -27,7 +27,8 @@ As a result of completing lecture 5 of Code 301, students will:
 
 Today, we will be deploying your portfolio to a real web server. This will require a carefully stepped process:
 
-- [ ] Fork the starter code.
+- [ ] Fork and clone the starter code.
+- [ ] Install the dependencies by running the command `npm install` from within the directory 
 - [ ] Run the server from your machine with `node server.js` and test these routes
   - /data route that sends JSON data
   - Static files served from `/public`
@@ -36,9 +37,11 @@ Today, we will be deploying your portfolio to a real web server. This will requi
 - [ ] Create an account at Heroku.com
 - [ ] Create a new "app" from your Heroku Dashboard
 - [ ] Deploy your app from your GitHub repository (see Deploy tab in Heroku)
+  - [ ] Select Connect to Github
+  - [ ] Search for your repo and `connect` it
+  - [ ] Click `Deploy Branch`
 - [ ] Confirm app is live!
-- [ ] Connect your app to main
-- [ ] Check in your server code to GitHub (`main` branch)
 - [ ] View Heroku logs (Activity tab)
 - [ ] Confirm app with portfolio content is live
 - [ ] Win!
+- [ ] When you make edits to the code, you need to push to github and click `Deploy Branch` again on Heroku
