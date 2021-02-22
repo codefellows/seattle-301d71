@@ -1,0 +1,628 @@
+{
+  "location": {
+    "entity_type": "subzone",
+    "entity_id": 113179,
+    "title": "Downtown",
+    "latitude": "47.6090069409",
+    "longitude": "-122.3365806087",
+    "city_id": 279,
+    "city_name": "Seattle",
+    "country_id": 216,
+    "country_name": "United States"
+  },
+  "popularity": {
+    "popularity": "4.92",
+    "nightlife_index": "4.80",
+    "nearby_res": [
+      "16718128",
+      "16720700",
+      "16718605",
+      "16718075",
+      "16718687",
+      "16720729",
+      "16717268",
+      "16719178",
+      "16718982"
+    ],
+    "top_cuisines": [
+      "Cafe",
+      "Sandwich",
+      "American",
+      "Chinese",
+      "Seafood"
+    ],
+    "popularity_res": "100",
+    "nightlife_res": "10",
+    "subzone": "Pioneer Square",
+    "subzone_id": 113176,
+    "city": "Seattle"
+  },
+  "link": "https:\/\/www.zomato.com\/seattle\/downtown-restaurants",
+  "nearby_restaurants": [
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 16718128
+        },
+        "apikey": "2c5605d9d268000aff86340ea42b76eb",
+        "id": "16718128",
+        "name": "Pink Door",
+        "url": "https:\/\/www.zomato.com\/seattle\/pink-door-downtown?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Pike Place Market, 1919 Post Alley, Seattle 98101",
+          "locality": "Pike Place Market",
+          "city": "Seattle",
+          "city_id": 279,
+          "latitude": "47.6102890000",
+          "longitude": "-122.3426586000",
+          "zipcode": "98101",
+          "country_id": 216,
+          "locality_verbose": "Pike Place Market, Seattle"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Italian",
+        "average_cost_for_two": 100,
+        "price_range": 4,
+        "currency": "$",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https:\/\/b.zmtcdn.com\/data\/res_imagery\/16718128_RESTAURANT_50bfc6f5464b1ff9b575c9b92da1106d_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.7",
+          "rating_text": "Excellent",
+          "rating_color": "3F7E00",
+          "rating_obj": {
+            "title": {
+              "text": "4.7"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "800"
+            }
+          },
+          "votes": "1629"
+        },
+        "photos_url": "https:\/\/www.zomato.com\/seattle\/pink-door-downtown\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https:\/\/www.zomato.com\/seattle\/pink-door-downtown\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https:\/\/b.zmtcdn.com\/data\/res_imagery\/16718128_RESTAURANT_50bfc6f5464b1ff9b575c9b92da1106d_c.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/16718128",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/seattle\/pink-door-downtown\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 16720700
+        },
+        "apikey": "2c5605d9d268000aff86340ea42b76eb",
+        "id": "16720700",
+        "name": "Serious Pie",
+        "url": "https:\/\/www.zomato.com\/seattle\/serious-pie-belltown?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "316 Virginia Street, Seattle 98101",
+          "locality": "Belltown",
+          "city": "Seattle",
+          "city_id": 279,
+          "latitude": "47.6128967000",
+          "longitude": "-122.3405801000",
+          "zipcode": "98101",
+          "country_id": 216,
+          "locality_verbose": "Belltown, Seattle"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Pizza, Italian",
+        "average_cost_for_two": 40,
+        "price_range": 2,
+        "currency": "$",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https:\/\/b.zmtcdn.com\/data\/res_imagery\/16720700_RESTAURANT_8f88237d6da8d97c522a045f965775e8_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.4",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": {
+              "text": "4.4"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "700"
+            }
+          },
+          "votes": "1393"
+        },
+        "photos_url": "https:\/\/www.zomato.com\/seattle\/serious-pie-belltown\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https:\/\/www.zomato.com\/seattle\/serious-pie-belltown\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https:\/\/b.zmtcdn.com\/data\/res_imagery\/16720700_RESTAURANT_8f88237d6da8d97c522a045f965775e8_c.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/16720700",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/seattle\/serious-pie-belltown\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 16718605
+        },
+        "apikey": "2c5605d9d268000aff86340ea42b76eb",
+        "id": "16718605",
+        "name": "Salumi",
+        "url": "https:\/\/www.zomato.com\/seattle\/salumi-pioneer-square?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "404 Occidental Ave S, Seattle 98104",
+          "locality": "Pioneer Square",
+          "city": "Seattle",
+          "city_id": 279,
+          "latitude": "47.5997588000",
+          "longitude": "-122.3304516000",
+          "zipcode": "98104",
+          "country_id": 216,
+          "locality_verbose": "Pioneer Square, Seattle"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Sandwich, Deli, Italian",
+        "average_cost_for_two": 40,
+        "price_range": 2,
+        "currency": "$",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https:\/\/b.zmtcdn.com\/data\/res_imagery\/16718605_RESTAURANT_2b04a62138fc7909cbc00b9e97c85c4b_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.6",
+          "rating_text": "Excellent",
+          "rating_color": "3F7E00",
+          "rating_obj": {
+            "title": {
+              "text": "4.6"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "800"
+            }
+          },
+          "votes": "1089"
+        },
+        "photos_url": "https:\/\/www.zomato.com\/seattle\/salumi-pioneer-square\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https:\/\/www.zomato.com\/seattle\/salumi-pioneer-square\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https:\/\/b.zmtcdn.com\/data\/res_imagery\/16718605_RESTAURANT_2b04a62138fc7909cbc00b9e97c85c4b_c.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/16718605",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/seattle\/salumi-pioneer-square\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 16718075
+        },
+        "apikey": "2c5605d9d268000aff86340ea42b76eb",
+        "id": "16718075",
+        "name": "Lola",
+        "url": "https:\/\/www.zomato.com\/seattle\/lola-belltown?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Hotel Andra, 2000 4th Avenue, Seattle 98121",
+          "locality": "Hotel Andra",
+          "city": "Seattle",
+          "city_id": 279,
+          "latitude": "47.6130722222",
+          "longitude": "-122.3398222222",
+          "zipcode": "98121",
+          "country_id": 216,
+          "locality_verbose": "Hotel Andra, Seattle"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Greek, Mediterranean, Pacific Northwest",
+        "average_cost_for_two": 70,
+        "price_range": 3,
+        "currency": "$",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https:\/\/b.zmtcdn.com\/data\/res_imagery\/16718075_RESTAURANT_33e9a5535b2cf394314ac369149688cd.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.4",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": {
+              "text": "4.4"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "700"
+            }
+          },
+          "votes": "1279"
+        },
+        "photos_url": "https:\/\/www.zomato.com\/seattle\/lola-belltown\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https:\/\/www.zomato.com\/seattle\/lola-belltown\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https:\/\/b.zmtcdn.com\/data\/res_imagery\/16718075_RESTAURANT_33e9a5535b2cf394314ac369149688cd.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/16718075",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/seattle\/lola-belltown\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 16718687
+        },
+        "apikey": "2c5605d9d268000aff86340ea42b76eb",
+        "id": "16718687",
+        "name": "Wild Ginger",
+        "url": "https:\/\/www.zomato.com\/seattle\/wild-ginger-downtown?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "1401 3rd Avenue 98101",
+          "locality": "Downtown",
+          "city": "Seattle",
+          "city_id": 279,
+          "latitude": "47.6088914000",
+          "longitude": "-122.3373437000",
+          "zipcode": "98101",
+          "country_id": 216,
+          "locality_verbose": "Downtown, Seattle"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Vietnamese, Chinese, Asian",
+        "average_cost_for_two": 75,
+        "price_range": 3,
+        "currency": "$",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https:\/\/b.zmtcdn.com\/data\/res_imagery\/16718687_RESTAURANT_b25bc478f507ad301a07023ac4e41c3c_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.3",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": {
+              "text": "4.3"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "700"
+            }
+          },
+          "votes": "1881"
+        },
+        "photos_url": "https:\/\/www.zomato.com\/seattle\/wild-ginger-downtown\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https:\/\/www.zomato.com\/seattle\/wild-ginger-downtown\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https:\/\/b.zmtcdn.com\/data\/res_imagery\/16718687_RESTAURANT_b25bc478f507ad301a07023ac4e41c3c_c.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/16718687",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/seattle\/wild-ginger-downtown\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 16720729
+        },
+        "apikey": "2c5605d9d268000aff86340ea42b76eb",
+        "id": "16720729",
+        "name": "Purple Cafe and Wine Bar",
+        "url": "https:\/\/www.zomato.com\/seattle\/purple-cafe-and-wine-bar-downtown?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "1225 4th Avenue, Seattle 98101",
+          "locality": "Downtown",
+          "city": "Seattle",
+          "city_id": 279,
+          "latitude": "47.6079958000",
+          "longitude": "-122.3349899000",
+          "zipcode": "98101",
+          "country_id": 216,
+          "locality_verbose": "Downtown, Seattle"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Pacific Northwest, American",
+        "average_cost_for_two": 80,
+        "price_range": 3,
+        "currency": "$",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https:\/\/b.zmtcdn.com\/data\/res_imagery\/16720729_RESTAURANT_64e10a985b07adbffe9f1809bcafafd5.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.2",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": {
+              "text": "4.2"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "700"
+            }
+          },
+          "votes": "993"
+        },
+        "photos_url": "https:\/\/www.zomato.com\/seattle\/purple-cafe-and-wine-bar-downtown\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https:\/\/www.zomato.com\/seattle\/purple-cafe-and-wine-bar-downtown\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https:\/\/b.zmtcdn.com\/data\/res_imagery\/16720729_RESTAURANT_64e10a985b07adbffe9f1809bcafafd5.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/16720729",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/seattle\/purple-cafe-and-wine-bar-downtown\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 16717268
+        },
+        "apikey": "2c5605d9d268000aff86340ea42b76eb",
+        "id": "16717268",
+        "name": "Le Pichet",
+        "url": "https:\/\/www.zomato.com\/seattle\/le-pichet-downtown?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Pike Place Market, 1933 1st Avenue, Seattle 98101",
+          "locality": "Pike Place Market",
+          "city": "Seattle",
+          "city_id": 279,
+          "latitude": "47.6107440000",
+          "longitude": "-122.3426690000",
+          "zipcode": "98101",
+          "country_id": 216,
+          "locality_verbose": "Pike Place Market, Seattle"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Cafe, French",
+        "average_cost_for_two": 50,
+        "price_range": 2,
+        "currency": "$",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https:\/\/b.zmtcdn.com\/data\/res_imagery\/16717268_RESTAURANT_297d6a1a9a3343ab247f83ab9e91c918_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.5",
+          "rating_text": "Excellent",
+          "rating_color": "3F7E00",
+          "rating_obj": {
+            "title": {
+              "text": "4.5"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "700"
+            }
+          },
+          "votes": "1094"
+        },
+        "photos_url": "https:\/\/www.zomato.com\/seattle\/le-pichet-downtown\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https:\/\/www.zomato.com\/seattle\/le-pichet-downtown\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https:\/\/b.zmtcdn.com\/data\/res_imagery\/16717268_RESTAURANT_297d6a1a9a3343ab247f83ab9e91c918_c.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/16717268",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/seattle\/le-pichet-downtown\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 16719178
+        },
+        "apikey": "2c5605d9d268000aff86340ea42b76eb",
+        "id": "16719178",
+        "name": "Cafe Campagne",
+        "url": "https:\/\/www.zomato.com\/seattle\/cafe-campagne-downtown?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "Pike Place Market, 1600 Post Alley, Seattle 98101",
+          "locality": "Pike Place Market",
+          "city": "Seattle",
+          "city_id": 279,
+          "latitude": "47.6097344000",
+          "longitude": "-122.3414932000",
+          "zipcode": "98101",
+          "country_id": 216,
+          "locality_verbose": "Pike Place Market, Seattle"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "French, Cafe",
+        "average_cost_for_two": 55,
+        "price_range": 2,
+        "currency": "$",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https:\/\/b.zmtcdn.com\/data\/res_imagery\/16719178_RESTAURANT_6f79d6a05657eab6eece4bc5e7c14c33_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.3",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": {
+              "text": "4.3"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "700"
+            }
+          },
+          "votes": "1192"
+        },
+        "photos_url": "https:\/\/www.zomato.com\/seattle\/cafe-campagne-downtown\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https:\/\/www.zomato.com\/seattle\/cafe-campagne-downtown\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https:\/\/b.zmtcdn.com\/data\/res_imagery\/16719178_RESTAURANT_6f79d6a05657eab6eece4bc5e7c14c33_c.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/16719178",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/seattle\/cafe-campagne-downtown\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    },
+    {
+      "restaurant": {
+        "R": {
+          "has_menu_status": {
+            "delivery": -1,
+            "takeaway": -1
+          },
+          "res_id": 16718982
+        },
+        "apikey": "2c5605d9d268000aff86340ea42b76eb",
+        "id": "16718982",
+        "name": "Dahlia Lounge",
+        "url": "https:\/\/www.zomato.com\/seattle\/dahlia-lounge-belltown?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "location": {
+          "address": "2001 4th Avenue, Seattle 98121",
+          "locality": "Belltown",
+          "city": "Seattle",
+          "city_id": 279,
+          "latitude": "47.6132972222",
+          "longitude": "-122.3402472222",
+          "zipcode": "98121",
+          "country_id": 216,
+          "locality_verbose": "Belltown, Seattle"
+        },
+        "switch_to_order_menu": 0,
+        "cuisines": "Seafood, Pacific Northwest",
+        "average_cost_for_two": 100,
+        "price_range": 4,
+        "currency": "$",
+        "offers": [],
+        "opentable_support": 0,
+        "is_zomato_book_res": 0,
+        "mezzo_provider": "OTHER",
+        "is_book_form_web_view": 0,
+        "book_form_web_view_url": "",
+        "book_again_url": "",
+        "thumb": "https:\/\/b.zmtcdn.com\/data\/res_imagery\/16718982_RESTAURANT_746ee5f2aa1b8f95ca5911a1bc460e8e.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "user_rating": {
+          "aggregate_rating": "4.2",
+          "rating_text": "Very Good",
+          "rating_color": "5BA829",
+          "rating_obj": {
+            "title": {
+              "text": "4.2"
+            },
+            "bg_color": {
+              "type": "lime",
+              "tint": "700"
+            }
+          },
+          "votes": "1374"
+        },
+        "photos_url": "https:\/\/www.zomato.com\/seattle\/dahlia-lounge-belltown\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "menu_url": "https:\/\/www.zomato.com\/seattle\/dahlia-lounge-belltown\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https:\/\/b.zmtcdn.com\/data\/res_imagery\/16718982_RESTAURANT_746ee5f2aa1b8f95ca5911a1bc460e8e.jpg",
+        "has_online_delivery": 0,
+        "is_delivering_now": 0,
+        "store_type": "",
+        "include_bogo_offers": true,
+        "deeplink": "zomato:\/\/restaurant\/16718982",
+        "is_table_reservation_supported": 0,
+        "has_table_booking": 0,
+        "events_url": "https:\/\/www.zomato.com\/seattle\/dahlia-lounge-belltown\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1"
+      }
+    }
+  ]
+}
