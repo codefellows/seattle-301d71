@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Plan Your Visit To The USA</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Acme|Josefin+Sans|Muli" rel="stylesheet">
+
+  <!-- Template for errors -->
+  <script type="text/x-tmpl-mustache" id="error-template">
+    <p> {{ responseText }}</p>
+  </script>
+
+  <!-- Map -->
+  <script type="text/x-tmpl-mustache" id="map-template">
+    <img id="map-locationiq" alt="Location IQ map: Given a valid API key, a map will appear here" height={{height}} width={{width}} src="https://maps.locationiq.com/v2/staticmap?key={{key}}&center={{lat}},{{lon}}&size={{width}}x{{height}}&zoom=12" />
+    <button id="key-reset">Reset API key</button>
+  </script>
+
+  <!-- Placeholder -->
+  <script type="text/x-tmpl-mustache" id="placeholder-template">
+    <div id="map-placeholder" width={{width}} height={{height}}>
+      <h3>Display Map Data here with Geocoding</h3>
+      <p>Latitude: <span>{{lat}}</span></p>
+      <p>Longitude: <span>{{lon}}</span</p>
+      <p>Your Search: <span>{{search_query}}</span></p>
+      <p>API Location Result: <span>{{formatted_query}}</span></p>
+    </div>
+    <form id="geocode-form">
+      <label>Do you have a Geocoding API key?</label>
+      <input type="text" id="api-key">
+    </form>
+  </script>
+
+  <!-- Template for weather data -->
+  <script type="text/x-tmpl-mustache" id="weather-results-template">
+    <li>
+      The forecast for {{ time }} is: {{ forecast }}
+    </li>
+  </script>
+
+  <!-- Template for Yelp data -->
+  <script type="text/x-tmpl-mustache" id="yelp-results-template">
+    <li>
+      <a href="{{ url }}">{{ name }}</a>
+      <p>The average rating is {{ rating }} out of 5 and the average cost is {{ price }} out of 4</p>
+      <img src="{{ image_url }}">
+    </li>
+  </script>
+
+  <!-- Template for movie data -->
+  <script type="text/x-tmpl-mustache" id="movies-results-template">
+    <li>
+      <p><span>{{ title }}</span> was relased on {{ released_on }}. Out of {{ total_votes }} total votes, {{title}} has an average vote of {{ average_votes }} and a popularity score of {{ popularity }}.</p>
+      <img src="{{ image_url }}">
+      <p>{{ overview }}</p>
+    </li>
+  </script>
+
+  <!-- Template for parks data -->
+  <script type="text/x-tmpl-mustache" id="parks-results-template">
+    <li>
+      <p>Park Name: <a href="{{ park_url }}">{{ name }}</a>, Location: {{ address }}</p>
+      <p>The free to enter the park is {{ fee }}</p>
+      <p>{{ description }}</p>
+    </li>
+  </script>
+
+</head>
+
+<body>
+  <header>
+    <h1>Plan Your Visit To The USA</h1>
+    <p>Enter a location in the USA below to learn about the weather, restaurants, movies, and more!</p>
+  </header>
+  <main>
+    <form id="url-form">
+      <label>Enter the URL to your deployed back end, making sure to remove the trailing forward slash</label>
+      <input type="text" id="back-end-url">
+    </form>
+
+    <form id="search-form" class="hide">
+      <label for="search">Search for a location</label>
+      <input type="text" name="search" id="input-search" placeholder="Enter a location here">
+      <button type="submit">Explore!</button>
+    </form>
+
+    <div id="map"></div>
+
+    <h2 class="query-placeholder"></h2>
+
+    <!-- Section for error message -->
+    <section class="error-container"></section>
+
+    <div class="column-container">
+      <!-- Section for weather data -->
+      <section>
+        <h3>Results from the Open Weather API</h3>
+        <ul class="weather-results"></ul>
+      </section>
+
+      <!-- Section for Yelp data -->
+      <section class="yelp-container">
+        <h3>Results from the Yelp API</h3>
+        <ul class="yelp-results">
+        </ul>
+        <button id="getMoreYelps">Load More...</button>
+      </section>
+
+      <!-- Section for movie data -->
+      <section class="movie-container">
+        <h3>Results from The Movie DB API</h3>
+        <ul class="movies-results"></ul>
+      </section>
+
+      <!-- Section for parks data -->
+      <section>
+        <h3>Results from the National Parks Service</h3>
+        <ul class="parks-results"></ul>
+      </section>
+    </div>
+  </main>
+  <footer>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/mustache@latest"></script>
+  <script src="./scripts/app.js"></script>
+</body>
+
+</html>
