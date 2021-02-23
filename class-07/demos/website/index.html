@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>City Explorer</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+
+  <!-- Template for summary -->
+  <script type="text/x-tmpl-mustache" id="title-template">
+    <span>All About {{formatted_query}}</span>
+  </script>
+
+  <!-- Template for map -->
+  <script type="text/x-tmpl-mustache" id="image-template">
+    <img src="/images/map.png?lat={{latitude}}&long={{longitude}}" height="300" width="400" alt="Map of {{formatted_query}}" />
+  </script>
+
+  <!-- Template for restaurant data -->
+  <script type="text/x-tmpl-mustache" id="restaurant-results-template">
+    <li>
+      <div>{{restaurant}}</div>
+      <div>{{locality}}</div>
+      <div>{{cuisines}}</div>
+    </li>
+  </script>
+
+  <!-- Template for places data -->
+  <script type="text/x-tmpl-mustache" id="places-results-template">
+    <li>
+      <div>{{name}}</div>
+      <div>{{type}}</div>
+    </li>
+  </script>
+
+</head>
+
+<body>
+
+  <header>
+    <h1>City Explorer</h1>
+    <p>Enter a location below to learn about the weather, restaurants, movies, and more!</p>
+  </header>
+
+  <main>
+
+    <form id="search-form">
+      <label for="search">Search for a location</label>
+      <input type="text" name="search" id="input-search" placeholder="Enter a location here">
+      <button type="submit">Explore!</button>
+    </form>
+
+    <section id="map"></section>
+
+    <h2 id="title"></h2>
+
+    <section class="columns">
+
+      <section id="restaurants" class="hide">
+        <h3>Retaurants</h3>
+        <ul id="restaurant-results"></ul>
+      </section>
+
+      <section id="places" class="hide">
+        <h3>Points of Interest</h3>
+        <ul id="places-results"></ul>
+      </section>
+
+  </main>
+  <footer>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/mustache@latest"></script>
+  <script src="/scripts/app.js"></script>
+</body>
+
+</html>

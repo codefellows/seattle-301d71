@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #D9D9D9;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #4484CE;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+header {
+  font-size: 1.5rem;
+}
+
+header, h1, h2, h3 {
+  text-align: center;
+}
+
+img {
+  margin: auto;
+  display: block;
+}
+
+form {
+  text-align: center;
+  margin: 2rem;
+}
+
+#input-search {
+  padding: 5px;
+  border: 1px solid #4484CE;
+}
+
+button {
+  padding: 5px 15px;
+}
+
+img {
+  margin: 1rem auto;
+  border: 2px solid #4484CE;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.columns section {
+  max-width: 25%;
+  margin: 0 2rem;
+}
+
+.columns section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+  text-indent: 5px;
+}
+
+.columns section ul li {
+  border-bottom: 1px dashed #4484CE;
+  padding: 1rem 0;
+}
+
+.hide {
+  display: none;
+}
