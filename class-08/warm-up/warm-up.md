@@ -4,16 +4,19 @@ Read through this code as if you are the interpreter. Find all of the mistakes i
 ## server.js
 
 ```
-const express = require(express);
+const express = require('express');
+// const cors = require('cors')
+const PORT = process.env.PORT;
 
-app.get('username', req, res => {
+http://localhost:3000/username?username=ncarigna&password=supersecretpassword
+app.get('/username', (req, res) => {
   const userInfo = {};
 
-  userInfo.name: request.username,
-  userInfo.password: request.password
+  userInfo.name = req.query.username;
+  userInfo.password = req.query.password;
 
-  response.sendFile('index.html', 'style.css')
+  res.sendFile('index.html')
 })
 
-app.listen(() => "Listening on Port 3000");
+app.listen(PORT, () => console.log(`Listening on Port ${PORT}`));
 ```
