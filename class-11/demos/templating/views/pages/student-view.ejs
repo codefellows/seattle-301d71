@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Students</h1>
+
+  <form action="/create-students" method="POST">
+    name<input type="text" name="name">
+    hobby<input type="text" name="hobby">
+
+    super star<input type="radio" value="super star" name="theyAre">
+    super hero<input type="radio" value="super hero" name="theyAre">
+    <input type="submit">
+  </form>
+
+  <ul>
+
+    <!-- {studentsArray: studentsArr}; -->
+    <li>
+      <h2>Barrett</h2>
+      <p>Hobby: Brewing</p>
+    </li>
+
+    <% for(let i = 0; i < studentsArray.length; i++){ %>
+  
+    <li>
+      <h2><%= studentsArray[i].name %></h2>
+      <p>Hobby: <%= studentsArray[i].hobby %></p>
+    </li>
+
+    <% } %>
+    
+    <% for(let i = 0; i < 2; i++){ %>
+      <p>too many p tags</p>
+    <% } %>
+
+  </ul>
+</body>
+</html>

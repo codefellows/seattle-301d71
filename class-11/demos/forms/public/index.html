@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+<body>
+  <!-- Action is the url we want to go visit -->
+  <form action="/ice-cream">
+    <fieldset>
+      <legend>Soda?</legend>
+      <input name="brand" type="text">
+      <input type="number" name="quantity">
+      <input type="submit">
+    </fieldset>
+  </form>
+
+  <form action="/add-ice-cream-flavor" method="POST">
+    <input type="text" name="flavor">
+    <input type="submit">
+  </form>
+
+</body>
+</html>
