@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  The Show Tasks Page
+  <form action="/task" method="POST">
+    <fieldset>
+      <legend>Add a Task</legend>
+      <label for="">Task</label>
+      <input type="text" name="name">
+      <label for="dueDate">Due Date</label>
+      <input type="text" name="due_date">
+      <input type="submit">
+    </fieldset>
+  </form>
+  <ul>
+    <% for(let i = 0; i < allTasks.length; i++){ %>
+
+    <li>
+      <h2><%= allTasks[i].name %></h2>
+      <p>Due: <%= allTasks[i].due_date %></p>
+      <a href="/task/<%= allTasks[i].id %>">Detail View</a>
+    </li>
+
+    <% } %>
+  </ul>
+</body>
+</html>
