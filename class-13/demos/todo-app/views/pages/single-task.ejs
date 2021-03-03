@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/style.css">
+<title>To-Do List</title>
+  </head>
+  <body>
+    <header>
+        <h1>To-Do Site</h1>
+        <nav class="navigation">
+          <ul>
+            <li><a href="/tasks">View All Tasks</a></li>
+            <li><a href="/add">Add a New Task</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+    <main>
+      <section class="task-view container">
+        <ul id="task-list">
+          <li class="task-item" data-id="<%= task.id %>">
+            <h4>Task: <%= task.name %></h4>
+            <p>Due Date: <%= task.due_date %></p>
+          </li>
+        </ul>
+      </section>
+      <h2 class="view-title">Update Task</h2>
+      <form action="/update/<%= task.id %>?_method=PUT" method="post">
+        <input type="text" name="name" value="<%- task.name %>" placeholder="Task Name">
+        <input type="text" name="due_date" value="<%- task.due_date %>" placeholder="Due Date">
+        <button type="submit">Update This Task</button>
+      </form>
+      <h2 class="view-title">Delete Task</h2>
+      <form action="/tasks/<%= task.id %>?_method=DELETE" method="post">
+        <button type="submit">Delete This Task</button>
+      </form>
+    </main>
+  </body>
+</html>
