@@ -1,0 +1,37 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <header>
+        <h1>My To-Do List</h1>
+        <nav class="navigation">
+          <ul>
+            <li><a href="/tasks">View All Tasks</a></li>
+            <li><a href="/add">Add a New Task</a></li>
+          </ul>
+        </nav>
+      </header>
+    <main>
+      <section class="create-view container">
+        <h2 class="view-title">"Add A Task"</h2>
+        <form id="create-form" action="/tasks" method="post">
+          <fieldset>
+            <legend>Add a task</legend>
+            <input type="text" name="name" placeholder="Task">
+            <input type="text" name="due_date" placeholder="Due Date">
+            <input type="hidden" name="status" value="not done">
+            <button type="submit">Add This Task</button>
+          </fieldset>
+        </form>
+
+      </section>
+    </main>
+  </body>
+</html>
